@@ -1,0 +1,171 @@
+/* RESET */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors variables */
+  --yellow: #F4D04E;
+  --gray-950: #111111;
+  --gray-500: #6B6B6B;
+  --white: #FFFFFF;
+
+  /* Spacing variables */
+  --space-300: 1.5rem;  /* 24px */
+  --space-150: 0.75rem; /* 12px */
+  --space-100: 0.5rem;  /* 8px */ /* unused */
+  --space-50: 0.25rem;  /* 4px */ /* unused */
+}
+
+/* Front Figtree */
+
+@font-face {
+  font-family: "Figtree";
+  src: url("/assets/fonts/static/Figtree-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("/assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Typography */
+
+.text-preset-1 {
+  font-size: 1.5rem; /* 24px */
+  line-height: 150%;
+  font-weight: 800;
+}
+
+.text-preset-2 {
+  font-size: 1rem; /* 16px */
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.text-preset-3 {
+  font-size: 0.875rem; /* 14px */
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.text-preset-3-bold {
+  font-size: 0.875rem; /* 14px */
+  line-height: 150%;
+  font-weight: 800;
+}
+
+.title-hover {
+  align-self: flex-start; /* So the hover effect works only on the text area */
+}
+
+.title-hover:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  min-height: 100vh;
+  
+  background-color: var(--yellow);
+  color: var(--gray-950);
+
+  font-family: "Figtree", sans-serif;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-300);
+  
+  margin: 0 var(--space-300);
+  padding: var(--space-300);
+  max-width: 24rem; /* 384px */
+
+  box-shadow: 8px 8px 0px;
+  border-radius: 20px;
+  border: 1px solid var(--gray-950);
+
+  background-color: var(--white);
+}
+
+header {
+  max-height: 200px;
+}
+
+.main-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.blog-preview-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-150);
+}
+
+.blog-tag {
+  align-self: flex-start;
+  padding: 4px 12px;
+  border-radius: 4px;
+  background-color: var(--yellow);
+}
+
+.preview-text {
+  color: var(--gray-500);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: var(--space-150);
+}
+
+.avatar-img {
+  height: 32px;
+  width: 32px;
+}
+
+@media (max-width: 380px) {
+  .text-preset-1 {
+    font-size: 1.25rem; /* 20px */
+  }
+
+  .text-preset-2 {
+    font-size: 0.875rem; /* 14px */
+  }
+
+  .text-preset-3 {
+    font-size: 0.75rem; /* 12px */
+  }
+
+  .text-preset-3-bold {
+    font-size: 0.75rem; /* 12px */
+  }
+}
+
+@media (max-width: 335px) {
+  main {
+    padding: var(--space-150);
+  }
+}
+
+@media (max-width: 310px) {
+  main {
+    gap: var(--space-150);
+  }
+}
