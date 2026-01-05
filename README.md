@@ -25,7 +25,7 @@ This challenge was an easy one, focused on CSS and HTML only.
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site of the solution](https://blog-preview-card-delta-gilt.vercel.app/)
 
 ## My process
 
@@ -38,9 +38,9 @@ This challenge was an easy one, focused on CSS and HTML only.
 
 ### What I learned
 
-Even though is was a easy solution, I reviewed things that I already knew. Like Flex-box and CSS Variables. I folowed the good practice of keeping the code organized and uses of variables.
+Even though it was an easy challenge, I reviewed concepts I already knew, such as Flexbox and CSS variables. I followed best practices by keeping the code organized and making good use of variables.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Vinicius-PR)
-- Linkedin - [@yourusername](https://www.linkedin.com/in/vinicius-paula-resende/)
+- Frontend Mentor - [@Vinicius-PR](https://www.frontendmentor.io/profile/Vinicius-PR)
+- Linkedin - [@Vinicius](https://www.linkedin.com/in/vinicius-paula-resende/)
